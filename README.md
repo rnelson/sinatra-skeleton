@@ -6,17 +6,21 @@ but it's worked for me.
 
 Gems
 ----
+```shell
 $ gem install bundler
 $ gem install heroku
 $ gem install sass    
 $ gem install --no-ri haml
 $ gem install liquid
 $ bundle install
+```
 
 Heroku
 ------
+```shell
 $ heroku create --stack cedar
 $ git clone git@heroku.com:HEROKUPROJECTNAME.git .
 $ heroku addons:add custom_domains:basic
 $ heroku domains:add YOURDOMAIN
 $ heroku domains:add www.YOURDOMAIN
+```
