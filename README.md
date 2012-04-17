@@ -7,11 +7,8 @@ but it's worked for me.
 Gems
 ----
 ```shell
-$ gem install bundler
-$ gem install heroku
-$ gem install sass    
-$ gem install --no-ri haml
-$ gem install liquid
+$ rvmsudo rvm install --default 1.9.3
+$ rvmsudo gem install --no-ri mysql pg bundler heroku sass haml liquid
 $ bundle install
 ```
 
