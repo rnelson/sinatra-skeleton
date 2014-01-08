@@ -1,8 +1,6 @@
-source :rubygems
+source 'https://rubygems.org'
 gem 'unicorn'
 gem 'sinatra'
 gem 'liquid'
 gem 'sass'
-group :development do
-  gem 'heroku'
-end
+gem 'thin'
