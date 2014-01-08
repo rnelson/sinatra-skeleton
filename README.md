@@ -3,7 +3,7 @@ About
 I created this project as a starting point for a Sinatra-based Ruby
 project hosted on Heroku. It's not the best setup (see the
 [food inspections](https://github.com/rnelson/ne_state_restaurant_inspections)
-project for a better example, but it's enough to get going.
+project for a better example) but it's enough to get going.
 
 Gems
 ----
