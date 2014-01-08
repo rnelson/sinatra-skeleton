@@ -1,14 +1,15 @@
 About
 -----
 I created this project as a starting point for a Sinatra-based Ruby
-project hosted on Heroku. It's probably not the best initial config,
-but it's worked for me.
+project hosted on Heroku. It's not the best setup (see the
+[food inspections](https://github.com/rnelson/ne_state_restaurant_inspections)
+project for a better example, but it's enough to get going.
 
 Gems
 ----
 ```shell
-$ rvmsudo rvm install --default 1.9.3
-$ rvmsudo gem install --no-ri mysql pg bundler heroku sass haml liquid
+$ rvm install --default 2.1
+$ gem install --no-ri mysql pg bundler heroku sass haml liquid
 $ bundle install
 ```
 
