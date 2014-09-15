@@ -9,7 +9,7 @@ GEM
     rack-protection (1.5.3)
       rack
     raindrops (0.13.0)
-    sass (3.3.11)
+    sass (3.4.4)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
